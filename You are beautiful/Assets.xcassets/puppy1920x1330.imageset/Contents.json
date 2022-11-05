@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "puppy1920x1330.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "VIER PFOTEN_2019-03-15_001-2886x1999-1920x1330.jpg",
+      "filename" : "puppy1920x1330@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "puppy1920x1330@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
