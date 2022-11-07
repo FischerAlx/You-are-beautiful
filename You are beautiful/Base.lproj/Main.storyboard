@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="...as all of them!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OK-OU-JBK">
-                                <rect key="frame" x="152" y="652" width="891" height="43"/>
+                                <rect key="frame" x="151" y="652" width="892" height="43"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="35"/>
                                 <color key="textColor" red="1" green="0.74117647060000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -29,13 +29,18 @@
                                 <color key="backgroundColor" red="1" green="0.84705882349999995" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are beatiful..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="Jxa-tp-X2h">
-                                <rect key="frame" x="95" y="125" width="1005" height="43"/>
+                                <rect key="frame" x="95" y="125" width="1004" height="43"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="35"/>
                                 <color key="textColor" red="1" green="0.74117647060000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="shadowColor" red="0.039215686270000001" green="0.1137254902" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xkG-9w-SLI">
+                                <rect key="frame" x="224" y="762.5" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.039215686270000001" green="0.1137254902" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.93333333333333335" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
@@ -47,6 +52,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="heart" catalog="system" width="128" height="107"/>
         <image name="puppy1920x1330" width="640" height="443"/>
     </resources>
 </document>
